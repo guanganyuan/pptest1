@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_2347620" xml:lang="zh-CN">
+	<title id="title_6ax_c7n_oip">new test</title>
+	<shortdesc id="shortdesc_i4t_zmu_6pd">内容显示不全测试</shortdesc>
+	<conbody id="conbody_3mg_on9_dr6">
+		<table id="table_q1h_iir_nsr">
+			<tgroup cols="3" id="tgroup_dek_kb2_c7n">
+				<colspec colnum="1" colname="col1" colwidth="1*" id="colspec_a9o_jkk_av8"></colspec>
+				<colspec colnum="2" colname="col2" colwidth="1*" id="colspec_sc9_3tq_zol" align="right"></colspec>
+				<colspec colnum="3" colname="col3" colwidth="1*" id="colspec_lsh_4d4_sx0"></colspec>
+				<thead id="thead_dmj_co5_jir">
+					<row id="row_wks_76z_bxe">
+						<entry id="entry_843_har_5kq">first</entry>
+						<entry id="entry_ylo_uic_496"></entry>
+						<entry id="entry_elv_ttw_ep6"></entry>
+					</row>
+				</thead>
+				<tbody id="tbody_gl3_83w_yaf">
+					<row id="row_ezw_znb_gsi">
+						<entry id="entry_qz2_ez7_auh">second</entry>
+						<entry id="entry_sia_tkb_mle">You can use a single XSL file as an alternative by passing it as a parameter. For example, when building XHTML content, XSL parameters allow the user to specify a separate local XSL file (inside or outside the toolbox) to be called instead of the default XHTML code. Typically, this code imports the default processing code and overrides several processing routines. This method is best when the coverage is very small or the style varies from build to build. However, any extensions made using such overlays can also be implemented through plugins.  Creating a plug-in can be very simple or very complex, and is usually the best way to change or extend the toolbox. Plugins can be used to complete almost all the modifications required for toolbox processing, from smaller style adjustments to extensive, complex new output formats.  It is strongly recommended not to edit DITA-OT code directly. Modifying the code directly will greatly increase the work and risks involved in future upgrades. Such modifications are also likely to break plugins provided by others, limiting the toolkit's available functionality. "range": {
+      "begin": [
+        {"type":"INF_MIN"},  //
+        {"type":"INT", "value":"0"}  //
+      ], 
+      "end": [
+        {"type":"INF_MAX"}, //。
+        {"type":"INT", "value":"9999"} //
+      ]
+    }use blow "range": {
+      "begin": [
+        {"type":"INF_MIN"},  //min。
+        {"type":"INF_MIN"} //sellerId min。
+      ], 
+      "end": [
+        {"type":"INF_MAX"}, //deviceId max。
+          {"type":"INF_MAX"} //sellerId min。
+      ]
+    }
+							<codeblock id="codeblock_cys_7ax_3c8">"range": {
+      "begin": [
+        {"type":"INF_MIN"},  //指定deviceID最小值。
+        {"type":"INT", "value":"0"}  //指定SellerID最小值。
+      ], 
+      "end": [
+        {"type":"INF_MAX"}, //指定deviceID抽取最大值。
+        {"type":"INT", "value":"9999"} //指定SellerID抽取最大值。
+      ]
+    }</codeblock>
+如果要对上述表抽取全表，可以使用如下配置。 
+							<codeblock id="codeblock_jh5_wpp_08b">"range": {
+      "begin": [
+        {"type":"INF_MIN"},  //指定deviceID最小值。
+        {"type":"INF_MIN"} //指定SellerID最小值。
+      ], 
+      "end": [
+        {"type":"INF_MAX"}, //指定deviceID抽取最大值。
+          {"type":"INF_MAX"} //指定SellerID抽取最大值。
+      ]
+    }</codeblock>
+						</entry>
+						<entry id="entry_zge_j2y_gjr"></entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+		<table id="table_wlu_tl3_4ph">
+			<title id="title_ir5_938_bdb"></title>
+			<tgroup cols="3" id="tgroup_twu_7d8_sog">
+				<colspec colnum="1" colname="col1" colwidth="1*" id="colspec_guo_cyx_kqb"></colspec>
+				<colspec colnum="2" colname="col2" colwidth="1*" id="colspec_pxi_hv8_7tz"></colspec>
+				<colspec colnum="3" colname="col3" colwidth="1*" id="colspec_r2t_bdo_mi4"></colspec>
+				<thead id="thead_nej_rv1_w6e">
+					<row id="row_a08_q52_qwm">
+						<entry id="entry_1zh_5mi_kqt"></entry>
+						<entry id="entry_ewk_5gj_avw"></entry>
+						<entry id="entry_ndy_069_wbe"></entry>
+					</row>
+				</thead>
+				<tbody id="tbody_bd7_g99_jyu">
+					<row id="row_eue_qyw_ubr">
+						<entry id="entry_8sp_4hu_1sz"></entry>
+						<entry id="entry_rvs_tx8_mp3"></entry>
+						<entry id="entry_d78_st8_wt8"></entry>
+					</row>
+					<row id="row_cos_d46_zgd">
+						<entry id="entry_k3r_8c7_az7"></entry>
+						<entry id="entry_x9q_gds_iew"></entry>
+						<entry id="entry_1u2_eqb_zd7"></entry>
+					</row>
+					<row id="row_c55_kg7_s1u">
+						<entry id="entry_7ng_mfs_qt9"></entry>
+						<entry id="entry_ggv_iok_yd6"></entry>
+						<entry id="entry_xad_h4y_hbu"></entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
+	</conbody>
+</concept>
