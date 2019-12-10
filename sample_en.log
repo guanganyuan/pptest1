@@ -1,0 +1,582 @@
+
+init:
+
+init-properties:
+
+check-arg:
+    [mkdir] Created dir: C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+
+log-arg:
+     [echo] *****************************************************************
+     [echo] * basedir = C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3
+     [echo] * dita.dir = C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3
+     [echo] * transtype = pdf5.ml
+     [echo] * tempdir = C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+     [echo] * outputdir = C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\out
+     [echo] * clean.temp = true
+     [echo] * DITA-OT version = 2.5.3
+     [echo] * XML parser = Xerces
+     [echo] * XSLT processor = Saxon
+     [echo] * collator = ICU
+     [echo] *****************************************************************
+     [echo] #Ant properties
+     [echo] #Tue Dec 10 14:49:45 CST 2019
+     [echo] args.grammar.cache=yes
+     [echo] args.input=samples/sample_en/sample_en.ditamap
+     [echo] args.logdir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\out
+     [echo] args.xml.systemid.set=yes
+     [echo] dita.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3
+     [echo] dita.output.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\out
+     [echo] dita.plugin.com.antennahouse.pdf5.ml.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\com.antennahouse.pdf5.ml
+     [echo] dita.plugin.com.sophos.tocjs.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\com.sophos.tocjs
+     [echo] dita.plugin.org.dita.base.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3
+     [echo] dita.plugin.org.dita.eclipsehelp.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.eclipsehelp
+     [echo] dita.plugin.org.dita.html5.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.html5
+     [echo] dita.plugin.org.dita.htmlhelp.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.htmlhelp
+     [echo] dita.plugin.org.dita.javahelp.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.javahelp
+     [echo] dita.plugin.org.dita.pdf2.axf.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.pdf2.axf
+     [echo] dita.plugin.org.dita.pdf2.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.pdf2
+     [echo] dita.plugin.org.dita.pdf2.fop.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.pdf2.fop
+     [echo] dita.plugin.org.dita.pdf2.xep.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.pdf2.xep
+     [echo] dita.plugin.org.dita.specialization.dita11.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.specialization.dita11
+     [echo] dita.plugin.org.dita.troff.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.troff
+     [echo] dita.plugin.org.dita.xhtml.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.dita.xhtml
+     [echo] dita.plugin.org.oasis-open.dita.v1_2.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.oasis-open.dita.v1_2
+     [echo] dita.plugin.org.oasis-open.dita.v1_3.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\plugins\\org.oasis-open.dita.v1_3
+     [echo] dita.temp.dir=C\:\\Users\\wb-twb616046\\Desktop\\dita-ot-2.5.3\\temp\\temp20191210144945652
+     [echo] preprocess.chunk.skip=true
+     [echo] preprocess.copy-html.skip=true
+     [echo] preprocess.copy-image.skip=true
+     [echo] *****************************************************************
+
+build-init:
+
+preprocess.init:
+     [echo] *****************************************************************
+     [echo] * input = samples/sample_en/sample_en.ditamap
+     [echo] *****************************************************************
+
+ditaval-merge:
+
+gen-list:
+ [gen-list] Using Xerces grammar pool for DTD and schema caching.
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/sample_en.ditamap
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/dita_sample.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/c_preface.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_weirdtitle1.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_weirdtitle2.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/c_test_introduction.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_abstract.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_xref.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_note.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_bodyelements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_miscellaneouselements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_specializationelements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_typographic.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_programmingelements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_softwareelements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_utilityelements.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_fig.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_table.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_properties.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/t_logging_in_to_client.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_dita12.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_longdescref.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/m_keydef.ditamap
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_sectiondiv.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_reference_to_no_print.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_complecated_index_example.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_xslt.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_dir_attribute.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_backmatter.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/glossary_en.ditamap
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_no_print.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_tys125f.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XSLT.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XSLFO.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XMLandHTML.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XMLSchema.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_DTD.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_DOM.xml
+ [gen-list] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_SAX.xml
+ [gen-list] Serializing job specification
+
+debug-filter:
+   [filter] Using Xerces grammar pool for DTD and schema caching.
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_programmingelements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_programmingelements.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_longdescref.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_longdescref.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/glossary_en.ditamap to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/glossary_en.ditamap
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/c_preface.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_preface.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_typographic.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_typographic.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_table.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_table.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/dita_sample.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/dita_sample.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_reference_to_no_print.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_reference_to_no_print.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_tys125f.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_tys125f.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_miscellaneouselements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_miscellaneouselements.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/sample_en.ditamap to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en.ditamap
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_weirdtitle1.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle1.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_fig.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_fig.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_xref.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_xref.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_specializationelements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_specializationelements.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XSLFO.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLFO.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_note.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_note.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_properties.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_properties.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XMLandHTML.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLandHTML.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_utilityelements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_utilityelements.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_DTD.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DTD.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_DOM.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DOM.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_complecated_index_example.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_complecated_index_example.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_dir_attribute.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dir_attribute.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XMLSchema.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLSchema.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/m_keydef.ditamap to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/m_keydef.ditamap
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_SAX.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_SAX.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/r_xslt.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_xslt.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_abstract.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_abstract.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_dita12.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dita12.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_no_print.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_no_print.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_bodyelements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_bodyelements.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_sectiondiv.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_sectiondiv.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_weirdtitle2.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle2.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/gloss_XSLT.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLT.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/c_test_introduction.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_test_introduction.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/t_logging_in_to_client.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/t_logging_in_to_client.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_backmatter.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_backmatter.xml
+   [filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/topics-en/p_softwareelements.xml to file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_softwareelements.xml
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\canditopics.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\conref.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\conreftargets.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\copytosource.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\fullditamap.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\fullditamapandtopic.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\fullditatopic.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\hrefditatopic.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\hreftargets.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\html.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\image.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\outditafiles.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\resourceonly.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\resourceonly.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\subjectscheme.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\subtargets.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\user.input.file.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+
+mapref-check:
+
+mapref:
+   [mapref] Transforming into C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+   [mapref] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\preprocess\mapref.xsl
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\glossary_en.ditamap
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en.ditamap
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\m_keydef.ditamap
+
+branch-filter:
+[branch-filter] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en.ditamap
+
+copy-image:
+
+copy-html:
+
+copy-flag-check:
+
+copy-flag:
+
+copy-files:
+
+keyref:
+   [mapref] Transforming into C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+   [mapref] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\preprocess\mapref.xsl
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\glossary_en.ditamap
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en.ditamap
+   [mapref] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\m_keydef.ditamap
+
+copy-to:
+
+conrefpush:
+[job-helper] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\.job.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\conref.list
+[job-helper] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\job-helper.xsl
+
+conref-check:
+
+conref:
+
+profile-check:
+
+profile:
+
+topic-fragment:
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_programmingelements.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_longdescref.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_preface.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_typographic.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_table.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/dita_sample.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_reference_to_no_print.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_tys125f.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_miscellaneouselements.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle1.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_fig.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_xref.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_specializationelements.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLFO.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_note.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_properties.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLandHTML.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_utilityelements.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DTD.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DOM.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_complecated_index_example.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dir_attribute.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLSchema.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_SAX.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_xslt.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_abstract.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dita12.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_no_print.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_bodyelements.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_sectiondiv.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle2.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLT.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_test_introduction.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/t_logging_in_to_client.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_backmatter.xml
+[topic-fragment] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_softwareelements.xml
+
+chunk-check:
+
+chunk:
+
+move-meta-entries:
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en.ditamap
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_programmingelements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_longdescref.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DTD.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_DOM.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_complecated_index_example.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_preface.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_typographic.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_table.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/dita_sample.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dir_attribute.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLSchema.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_reference_to_no_print.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_SAX.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_xslt.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_abstract.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_miscellaneouselements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dita12.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle1.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_fig.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_xref.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_specializationelements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLFO.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_note.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_properties.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_bodyelements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_sectiondiv.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle2.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XMLandHTML.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/gloss_XSLT.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_test_introduction.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/t_logging_in_to_client.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_backmatter.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_softwareelements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_utilityelements.xml
+[move-meta] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en.ditamap
+[move-meta] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\preprocess\mappull.xsl
+
+maplink-check:
+
+maplink:
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_miscellaneouselements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_note.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_bodyelements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle2.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_typographic.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_sectiondiv.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/dita_sample.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_softwareelements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_dita12.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_no_print.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_utilityelements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_abstract.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_longdescref.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_xref.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_preface.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_weirdtitle1.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/c_test_introduction.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_specializationelements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/r_properties.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_programmingelements.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_table.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_reference_to_no_print.xml
+  [maplink] Processing file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/topics-en/p_fig.xml
+
+topicpull-check:
+
+topicpull:
+[topicpull] Transforming into C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+[topicpull] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\preprocess\topicpull.xsl
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_programmingelements.xml
+[topicpull] Failed to transform document: A value must be supplied for the parameter because the default value is not a valid instance of the required type
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_longdescref.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\c_preface.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_typographic.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_table.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\dita_sample.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_reference_to_no_print.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_tys125f.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_miscellaneouselements.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_weirdtitle1.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_fig.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_xref.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_specializationelements.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XSLFO.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_note.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_properties.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XMLandHTML.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_utilityelements.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_DTD.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_DOM.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_complecated_index_example.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_dir_attribute.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XMLSchema.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_SAX.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_xslt.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_abstract.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_dita12.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_no_print.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_bodyelements.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_sectiondiv.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_weirdtitle2.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XSLT.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\c_test_introduction.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\t_logging_in_to_client.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_backmatter.xml
+[topicpull] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_softwareelements.xml
+
+flag-module-check:
+
+flag-module:
+
+clean-map-check:
+
+clean-map:
+[clean-map] Transforming into C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+[clean-map] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\xsl\preprocess\clean-map.xsl
+[clean-map] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\glossary_en.ditamap
+[clean-map] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en.ditamap
+[clean-map] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\m_keydef.ditamap
+
+preprocess:
+
+map2pdf5.ml:
+     [echo] Start generating merged middle file.
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en.ditamap
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\dita_sample.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\c_preface.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_weirdtitle1.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_weirdtitle2.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\c_test_introduction.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_abstract.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_xref.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_note.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_bodyelements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_miscellaneouselements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_specializationelements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_typographic.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_programmingelements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_softwareelements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_utilityelements.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_fig.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_table.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_properties.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\t_logging_in_to_client.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_dita12.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_longdescref.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_sectiondiv.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_reference_to_no_print.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_complecated_index_example.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_xslt.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_dir_attribute.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_backmatter.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XSLT.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XSLFO.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XMLandHTML.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_XMLSchema.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_DTD.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_DOM.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\gloss_SAX.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\p_no_print.xml
+ [pipeline] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\topics-en\r_tys125f.xml
+
+merged2pdf:
+     [echo] dita.temp.dir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652 build.temp.dir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652
+     [echo] dita.dir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3
+     [echo] basedir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml
+     [echo] outputFile=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\out\sample_en.pdf
+
+build.disp.property:
+     [echo] *-- Plug-in Parameters -----------------------------------------*
+     [echo] style.def.file=${style.def.file}
+     [echo] assume.sortas.pinyin=${assume.sortas.pinyin}
+     [echo] make.see.link=${make.see.link}
+     [echo] include.frontmatter.to.toc=${include.frontmatter.to.toc}
+     [echo] add.numbering.title.prefix=${add.numbering.title.prefix}
+     [echo] add.part.to.title=${add.part.to.title}
+     [echo] add.thumbnail.index=${add.thumbnail.index}
+     [echo] xml.lang=${xml.lang}
+     [echo] output.pdf=sample_en.pdf
+     [echo] output.draft.comment=yes
+     [echo] output.required.cleanup=yes
+     [echo] use.oid=${use.oid}
+     [echo] format.dl.as.block=${format.dl.as.block}
+     [echo] debug.style=${debug.style}
+     [echo] sort.glossentry=${sort.glossentry}
+     [echo] output.start.message=${output.start.message}
+     [echo] auto.scale.down.to.fit=${auto.scale.down.to.fit}
+     [echo] make.toc.for.map=${make.toc.for.map}
+     [echo] make.index.for.map=${make.index.for.map}
+     [echo] make.alt.txt=${make.alt.txt}
+     [echo] paper.size=${paper.size}
+     [echo] image.in.output.folder=no
+     [echo] output.crop.region=${output.crop.region}
+     [echo] output.type=web
+     [echo] exclude.cover.from.counting.page=${exclude.cover.from.counting.page}
+     [echo] number.equation.block.unconditionally=${number.equation.block.unconditionally}
+     [echo] exclude.auto.numbering.from.equation.figure=${exclude.auto.numbering.from.equation.figure}
+     [echo] assume.equation.number.as.auto=${assume.equation.number.as.auto}
+     [echo] debug.index.sort.result=${debug.index.sort.result}
+     [echo] skip.pdf.generation=no
+     [echo] output.index=${output.index}
+     [echo] display.fn.at.end.of.topic=${display.fn.at.end.of.topic}
+     [echo] ahf.dir=${ahf.dir}
+     [echo] ahf.opt=${ahf.opt}
+     [echo] user.input.dir.url=file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/
+     [echo] dita.map.filename.root=sample_en
+     [echo] com.innodata.i18n.home=${i18n.home}
+     [echo] use.i18n.index.lib=no
+     [echo] use.saxon.transform=no
+     [echo] *----------------------------------------------------------------*
+
+transform.merged2pdf.impl:
+
+transform.merged:
+
+transform.merged.common:
+
+build.project.class.path.wo.plugin:
+
+build.project.class.path.with.plugin:
+
+build.project.class.path:
+
+transform.merged.common.saxon:
+
+build.project.class.path.wo.plugin:
+
+build.project.class.path.with.plugin:
+
+build.project.class.path:
+
+transform.merged.common.jaxp:
+     [echo] Stylesheet=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\xsl\dita2fo_convmerged_shell.xsl
+     [echo] use.i18n.index.lib=no
+     [echo] user.input.dir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\samples\sample_en
+     [xslt] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en_MERGED.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en_CONVERTED.xml
+     [xslt] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\xsl\dita2fo_convmerged_shell.xsl
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en_MERGED.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 42 milliseconds
+     [xslt] Tree size: 12087 nodes, 105640 characters, 15965 attributes
+     [xslt] Loading net.sf.saxon.event.MessageEmitter
+
+transform.merged2psmi:
+
+transform.merged.common:
+
+build.project.class.path.wo.plugin:
+
+build.project.class.path.with.plugin:
+
+build.project.class.path:
+
+transform.merged.common.saxon:
+
+build.project.class.path.wo.plugin:
+
+build.project.class.path.with.plugin:
+
+build.project.class.path:
+
+transform.merged.common.jaxp:
+     [echo] Stylesheet=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\xsl\dita2fo_shell.xsl
+     [echo] use.i18n.index.lib=no
+     [echo] user.input.dir=C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\samples\sample_en
+     [xslt] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en_CONVERTED.xml to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en_psmi.fo
+     [xslt] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\xsl\dita2fo_shell.xsl
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/temp/temp20191210144945652/sample_en_CONVERTED.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 37 milliseconds
+     [xslt] Tree size: 11748 nodes, 104222 characters, 15861 attributes
+     [xslt] Loading net.sf.saxon.event.MessageEmitter
+     [xslt] Antenna House PDF5-ML plug-in Version: 1.0.6
+     [xslt] Running on: SAXON (http://www.saxonica.com/) Version: 9.1.0.8
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/en-US_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 1 milliseconds
+     [xslt] Tree size: 7 nodes, 0 characters, 1 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/default_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 30 milliseconds
+     [xslt] Tree size: 6242 nodes, 16650 characters, 2466 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/default_equation_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 0 milliseconds
+     [xslt] Tree size: 58 nodes, 184 characters, 17 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/default_xml_mention_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 0 milliseconds
+     [xslt] Tree size: 150 nodes, 163 characters, 52 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/default_markup_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 0 milliseconds
+     [xslt] Tree size: 20 nodes, 35 characters, 3 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/customization/default_style_custom.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 0 milliseconds
+     [xslt] Tree size: 13 nodes, 0 characters, 0 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/config/en_style.xml using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 0 milliseconds
+     [xslt] Tree size: 5 nodes, 0 characters, 0 attributes
+     [xslt] Building tree for file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/plugins/com.antennahouse.pdf5.ml/xsl/dita2fo_indexsort.xsl using class net.sf.saxon.tinytree.TinyBuilder
+     [xslt] Tree built in 3 milliseconds
+     [xslt] Tree size: 260 nodes, 0 characters, 160 attributes
+     [xslt] [processLink 062W] Ignored invalid link in related-links or reltable. file=file:/C:/Users/wb-twb616046/Desktop/dita-ot-2.5.3/samples/sample_en/sample_en.ditamap href=topics-en/p_no_print.xml
+
+transform.psmi2fo:
+     [xslt] Processing C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\temp\temp20191210144945652\sample_en_psmi.fo to C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\out\sample_en.fo
+     [xslt] Loading stylesheet C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\xsl\psmi.xsl
+
+transform.fo2pdf:
+     [echo] $prmMultiVol=no
+
+transform.fo2pdf.ahf.check:
+
+BUILD FAILED
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\build.xml:45: The following error occurred while executing this line:
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\build.xml:101: The following error occurred while executing this line:
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\build.xml:193: The following error occurred while executing this line:
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\build_transform.xml:49: The following error occurred while executing this line:
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\build_ahf.xml:110: The following error occurred while executing this line:
+C:\Users\wb-twb616046\Desktop\dita-ot-2.5.3\plugins\com.antennahouse.pdf5.ml\build_ahf.xml:119: ahf.dir folder does not exist or AHF_DIR environment variable is missing.
+
+Total time: 32 seconds
